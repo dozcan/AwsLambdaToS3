@@ -1,6 +1,6 @@
 FROM node:boron
 
-WORKDIR /aws_lambda_to_s3
+WORKDIR aws_lambda_to_s3
 COPY package.json package-lock.json .
 
 RUN npm install
